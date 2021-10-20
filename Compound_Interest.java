@@ -1,4 +1,4 @@
-public class  {
+public class Compound_Interest  {
 
     public void calculate(int p, int t, double r, int n) {
         double amount = p * Math.pow(1 + (r / n), n * t);
@@ -7,7 +7,7 @@ public class  {
         System.out.println("Amount after " + t + " years: "+amount);
     }
     public static void main(String args[]) {
-    	JavaExample obj = new JavaExample();
+    	Compound_Interest obj = new Compound_Interest();
     	obj.calculate(2000, 5, .08, 12);
     }
 }
